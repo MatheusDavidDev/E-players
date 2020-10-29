@@ -38,7 +38,7 @@ img{
     max-width: 75em;
     height: 100%;
     margin: auto;
-    
+
 }
 
 .flex-center-bt{
@@ -114,7 +114,6 @@ img{
 
 .banner-text h1{
     font-size: 5.62em;
-    
 
 }
 
@@ -143,6 +142,65 @@ img{
 .jogos ul{
     list-style-type: none;
     width: 100%;
+}
+
+.jogos ul a:hover img{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.about{
+    width: 100%;
+    height: 31.25em;
+    background-color: var(--blue);
+    position: relative;
+}
+
+.about-angulation{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.angulation{
+    width: 100%;
+    height: 25em;
+    background-color: var(--background);
+    transform: skewy(-5deg);
+}
+
+.about-position{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    
+}
+
+
+.about-text{
+    width: 50%;
+    color: white;
+    text-align: justify;
+    
+    
+}
+
+.about-text h2{
+    font-size: 2.18em;
+    margin-bottom: 0.5em;
+    
+}
+
+.about-text p {
+    font-size: 1.125em;
+    margin-bottom: 1em;
+
+}
+
+.about-position img{
+    max-width: 31.87em;
 }
 
 
