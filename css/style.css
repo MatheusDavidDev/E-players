@@ -251,7 +251,17 @@ img{
 .noticias{
     width: 100%;
     height: 68.25em;
-    background-color: #1E1C21;
+    background-color: #17161a;
+}
+
+.noticias h2{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 2.1875em;
+    margin-left: 9.5em;
+    padding-top: 1em;
+
 }
 .flex-noti{
     display: flex;
@@ -267,14 +277,25 @@ img{
     
 }
 
+.noticias-flex a{
+    text-decoration: none;
+}
+
+.noticias-flex a:hover div{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
 .noticia{
     width: 14.8125em;
     height: 22.75em;
-    background-color: black;
+    background: var(--gradient);
     color: white;
     margin-top: 2em;
+    box-shadow: 1em 1em 1em 1em #000000;
 
 }
+
 
 .noticia img{
     max-width: 14.8125em;
@@ -292,11 +313,89 @@ img{
     padding: 1em;
 }
 
-aside{
+.proximos-jogos{
     width: 14.8125em;;
     height: 49.9375em;
-    background-color: black;
+    background: var(--gradient);
     margin-top: 2em;
+    box-shadow: 1em 1em 1em 1em #000000;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    
+    
+}
+
+
+.proximas-jogos-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+.proximas-jogos-flex p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9em;
+    
+
+}  
+
+.data{
+    margin-top: 1.5em;
+}
+
+.partidas-proximas{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 1.25em; /*20px*/
+
+}
+
+.partidas-proximas img{
+    max-width: 2.5em;
+
+} 
+.equipe1, .equipe2{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 400;
+    
+}
+
+.equipe1 img{
+    margin-right: 0.5em;
+}
+
+.equipe2 img{
+    margin-left: 0.5em;
+}
+
+
+.rodape{
+    width: 100%;
+    height: 13.125em;
+    background-color: var(--background);
+}
+
+.rodape-flex{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rodape-flex p{
+    color: white;
+    font-size: 3.125em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+
+
 }
 
 @media screen and (max-width: 74.93em){
