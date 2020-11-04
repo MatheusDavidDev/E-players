@@ -35,7 +35,7 @@ img{
 }
 
 .content{
-    width: 80%;
+    width: 95%;
     max-width: 75em;
     height: 100%;
     margin: auto;
@@ -95,7 +95,7 @@ img{
 }
 
 .banner-content{
-    width: 80%;
+    width: 95%;
     height: 100%;
     margin: auto;
     display: flex;
@@ -208,14 +208,16 @@ img{
 .jogos-aovivo, .jogos-embreve{
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
-    font-size: 1.875em;/*30px*/
+    font-size: 1.575em;/*25,12px*/
+}
+.jogos-aovivo h2, .jogos-embreve h2{
+    font-size: 1.2em;
+    text-transform: uppercase;
 }
 
-.jogos-aovivo::after{
-    content: '';
-    height: 2.666em;
+.linha{
+    height: 3em;
     border: solid 1px #fff;
-    margin: 0 1em;
 }
 
 .partida{
@@ -259,7 +261,7 @@ img{
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
     font-size: 2.1875em;
-    margin-left: 10em;
+    margin-left: 9.5em;
     padding-top: 1em;
 
 }
@@ -286,8 +288,9 @@ img{
     transition: 0.5s;
 }
 
-.noticia{
-    width: 14.8125em;
+.noticia-card{
+    width: 100%;
+    max-width: 14.8125em;
     height: 22.75em;
     background: var(--gradient);
     color: white;
@@ -297,18 +300,20 @@ img{
 }
 
 
-.noticia img{
+.noticia-card img{
     max-width: 14.8125em;
     max-height: 9.9375em;
 }
 
-.noticia h3{
+.noticia-card h3{
     font-size: 1.125em;
     font-family: 'Roboto', sans-serif;
     padding-left: 1em;
+    text-transform: uppercase;
+    
 }
 
-.noticia p{
+.noticia-card p{
     font-size: 1em;
     padding: 1em;
 }
@@ -374,29 +379,82 @@ img{
     margin-left: 0.5em;
 }
 
-
 .rodape{
-    width: 100%;
-    height: 13.125em;
-    background-color: var(--background);
+    padding: 1em 0;
+    color: #fff;
 }
 
-.rodape-flex{
-    width: 100%;
-    height: 100%;
+.logo-rodape{
+    max-width: 18.75em;
+}
+
+.links-footer{
+    width: 33%;
     display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.rodape-flex p{
-    color: white;
-    font-size: 3.125em;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-
+    justify-content: space-between;
 
 }
+
+.links h2{
+    font-size: 1.5em;
+    color: #fff;
+    text-transform: uppercase;
+
+}
+
+.links ul{
+    color: #fff;
+    margin-top: 0.7;
+}
+
+.links li{
+    margin-left: 2em;
+}
+
+.links a{
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.sociais{
+    width: 33%;
+    
+}
+
+.newslatter h2{
+    font-size: 0.875em;
+    margin-bottom: 0.5em;
+}
+.newslatter form{
+    display: flex;
+}
+
+.newslatter input[type=email]{
+    width: 12.5em;
+    height: 2.5em;
+    font-size: 1.1em;
+    padding-left: 1em;
+}
+
+.newslatter input[type=email]::placeholder{
+    color: #ccc;
+    font-weight: bold;
+}
+
+.newslatter input[type="button"]{
+    width: 9.75em;
+    height: 2.5em;
+    font-size: 1.1em;
+    background-color: red;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.siga-nos{
+    margin-top: 1em;
+}
+
 
 @media screen and (max-width: 74.93em){
 
