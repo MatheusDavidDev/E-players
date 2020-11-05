@@ -10,29 +10,29 @@
 <body>
     <header class="topo">
         <div class="content flex-center-bt">
-            <a href="">
+            <a href="#">
             <img src="img/Logo 1.svg" alt="logo E-players">
             </a>
             <nav class="menu">
-                <ul>
+                <ul id="meuslinks">
                     <li><a href="index.html">Início</a></li>
                     <li><a href="#">Campeonatos</a></li>
                     <li><a href="#">Resultados</a></li>
                     <li><a href="#">Notícias</a></li>
                     <li><a href="#">Login/Cadastro</a></li>
-                </ul>
-                    <a href="#" id="menu-bars">
-                      <i class="fas fa-bars"></i>
-                    </a>
-            </nav>
-        </div>
+                 </ul>
+                 <a href="#" id="menu-bars" onclick="meumenu()">
+                 <i class="fas fa-bars"></i>
+                </nav>
+            </a>
+            </div>
     </header>
 
     <main>
 
         <section class="banner">
             <picture>
-                <source media="(max-width: 1440px )" srcset="img/Banner1440.png">
+                <!--source media="(max-width: 1440px )" srcset="img/Banner1440.png">-->
   
                 <img src="img/Banner1920.jpg" alt="Banner principal com pilotos da formula 1">
             </picture>
@@ -119,163 +119,165 @@
                         </div>
                     </div>
                 </div>  
-       </section><!--Fim do jogos ao vivo-->
-
-       <section class="noticias">
-           <H2>Notícias</H2>
-           <div class="content flex-noti">
-               <div class="noticias-flex">
-
-                   <a href="#">
-                   <div class="noticia-card">
-                       <img src="img/T1 1.png" alt="Imagem sobre a Notícia">
-                       <h3>Titulo da noticia</h3>
-                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto ex officiis dolorum! Mollitia ea quis veniam voluptates nihil modi vel nam. Debitis, quia!</p>
-                   </div>
-                    </a>
-
-                    <a href="#">
-                   <div class="noticia-card">
-                        <img src="img/T12 1.png" alt="Imagem sobre a Notícia">
-                        <h3>Titulo da noticia</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto ex officiis dolorum! Mollitia ea quis veniam voluptates nihil modi vel nam. Debitis, quia!</p>
-                    </div>
-                    </a>
-                
-                    <a href="#">
-                    <div class="noticia-card">
-                        <img src="img/T13 1.png" alt="Imagem sobre a Notícia">
-                        <h3>Titulo da noticia</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto ex officiis dolorum! Mollitia ea quis veniam voluptates nihil modi vel nam. Debitis, quia!</p>
-                    </div>
-                    </a>
-
-                    <a href="#">
-                    <div class="noticia-card">
-                        <img src="img/T1 4.png" alt="Imagem sobre a Notícia">
-                        <h3>Titulo da noticia</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto ex officiis dolorum! Mollitia ea quis veniam voluptates nihil modi vel nam. Debitis, quia!</p>
-                    </div>
-                    </a>
-
-                    <a href="#">
-                    <div class="noticia-card">
-                         <img src="img/T1 5.png" alt="Imagem sobre a Notícia">
-                         <h3>Titulo da noticia</h3>
-                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto ex officiis dolorum! Mollitia ea quis veniam voluptates nihil modi vel nam. Debitis, quia!</p>
-                     </div>
-                    </a>
-
-                    <a href="#">
-                     <div class="noticia-card">
-                         <img src="img/T1 6.png" alt="Imagem sobre a Notícia">
-                         <h3>Titulo da noticia</h3>
-                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto ex officiis dolorum! Mollitia ea quis veniam voluptates nihil modi vel nam. Debitis, quia!</p>
-                     </div>
-                    </a>
-
-                </div>
-                 
-                <aside class="proximos-jogos">
-                    
-                    <div class="proximas-jogos-flex">
-                        <div class="partidas-proximas flex-center-bt">
-                            <div class="equipe1">
-                                <p>SK</p>
-                                <img src="img/SK 1.png" alt="Logo do SK">
-                            </div>
-                            <p>VS</p>
-                            <div class="equipe2">
-                                <img src="img/FLA 1.png" alt="Logo do Flamengo">
-                                <p>FL</p>
-                            </div>
-                        </div>
-                        <p class="data">01/12/2020 19:00</p>
-                    </div>
-
-                    <div class="proximas-jogos-flex">
-                        <div class="partidas-proximas flex-center-bt">
-                            <div class="equipe1">
-                                <p>SK</p>
-                                <img src="img/SK 1.png" alt="Logo do SK">
-                            </div>
-                            <p>VS</p>
-                            <div class="equipe2">
-                                <img src="img/FLA 1.png" alt="Logo do Flamengo">
-                                <p>FL</p>
-                            </div>
-                        </div>
-                        <p class="data">01/12/2020 19:00</p>
-                    </div>
-
-                    <div class="proximas-jogos-flex">
-                        <div class="partidas-proximas flex-center-bt">
-                            <div class="equipe1">
-                                <p>SK</p>
-                                <img src="img/SK 1.png" alt="Logo do SK">
-                            </div>
-                            <p>VS</p>
-                            <div class="equipe2">
-                                <img src="img/FLA 1.png" alt="Logo do Flamengo">
-                                <p>FL</p>
-                            </div>
-                        </div>
-                        <p class="data">01/12/2020 19:00</p>
-                    </div>
-
-                    <div class="proximas-jogos-flex">
-                        <div class="partidas-proximas flex-center-bt">
-                            <div class="equipe1">
-                                <p>SK</p>
-                                <img src="img/SK 1.png" alt="Logo do SK">
-                            </div>
-                            <p>VS</p>
-                            <div class="equipe2">
-                                <img src="img/FLA 1.png" alt="Logo do Flamengo">
-                                <p>FL</p>
-                            </div>
-                        </div>
-                        <p class="data">01/12/2020 19:00</p>
-                    </div>
-
-                    <div class="proximas-jogos-flex">
-                        <div class="partidas-proximas flex-center-bt">
-                            <div class="equipe1">
-                                <p>SK</p>
-                                <img src="img/SK 1.png" alt="Logo do SK">
-                            </div>
-                            <p>VS</p>
-                            <div class="equipe2">
-                                <img src="img/FLA 1.png" alt="Logo do Flamengo">
-                                <p>FL</p>
-                            </div>
-                        </div>
-                        <p class="data">01/12/2020 19:00</p>
-                    </div>
-
-                    <div class="proximas-jogos-flex">
-                        <div class="partidas-proximas flex-center-bt">
-                            <div class="equipe1">
-                                <p>SK</p>
-                                <img src="img/SK 1.png" alt="Logo do SK">
-                            </div>
-                            <p>VS</p>
-                            <div class="equipe2">
-                                <img src="img/FLA 1.png" alt="Logo do Flamengo">
-                                <p>FL</p>
-                            </div>
-                        </div>
-                        <p class="data">01/12/2020 19:00</p>
-                    </div>
-
-                </aside>
-            </div>
-        </section>
+            </section><!--Fim do jogos ao vivo-->
             
+            <section class="noticias">
+                <H2>Notícias</H2>
+                <div class="content flex-noti">
+                    <div class="noticias-flex">
+                        
+                        <a href="#">
+                            <div class="noticia-card">
+                                <img src="img/T1 1.png" alt="Imagem sobre a Notícia">
+                                <h3>Titulo da noticia</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto ex officiis dolorum! Mollitia ea quis veniam voluptates nihil modi vel nam. Debitis, quia!</p>
+                            </div>
+                        </a>
+                        
+                        <a href="#">
+                            <div class="noticia-card">
+                                <img src="img/T12 1.png" alt="Imagem sobre a Notícia">
+                                <h3>Titulo da noticia</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto ex officiis dolorum! Mollitia ea quis veniam voluptates nihil modi vel nam. Debitis, quia!</p>
+                            </div>
+                        </a>
+                        
+                        <a href="#">
+                            <div class="noticia-card">
+                                <img src="img/T13 1.png" alt="Imagem sobre a Notícia">
+                                <h3>Titulo da noticia</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto ex officiis dolorum! Mollitia ea quis veniam voluptates nihil modi vel nam. Debitis, quia!</p>
+                            </div>
+                        </a>
+                        
+                        <a href="#">
+                            <div class="noticia-card">
+                                <img src="img/T1 4.png" alt="Imagem sobre a Notícia">
+                                <h3>Titulo da noticia</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto ex officiis dolorum! Mollitia ea quis veniam voluptates nihil modi vel nam. Debitis, quia!</p>
+                            </div>
+                        </a>
+                        
+                        <a href="#">
+                            <div class="noticia-card">
+                                <img src="img/T1 5.png" alt="Imagem sobre a Notícia">
+                                <h3>Titulo da noticia</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto ex officiis dolorum! Mollitia ea quis veniam voluptates nihil modi vel nam. Debitis, quia!</p>
+                            </div>
+                        </a>
+                        
+                        <a href="#">
+                            <div class="noticia-card">
+                                <img src="img/T1 6.png" alt="Imagem sobre a Notícia">
+                                <h3>Titulo da noticia</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto ex officiis dolorum! Mollitia ea quis veniam voluptates nihil modi vel nam. Debitis, quia!</p>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    
+                    <div class="proximos-jogos-flex">
+                        <aside class="proximos-jogos">
+                            
+                            <div class="proximas-jogos-flex">
+                                <div class="partidas-proximas flex-center-bt">
+                                    <div class="equipe1">
+                                        <p>SK</p>
+                                        <img src="img/SK 1.png" alt="Logo do SK">
+                                    </div>
+                                    <p>VS</p>
+                                    <div class="equipe2">
+                                        <img src="img/FLA 1.png" alt="Logo do Flamengo">
+                                        <p>FL</p>
+                                    </div>
+                                </div>
+                                <p class="data">01/12/2020 19:00</p>
+                            </div>
+                            
+                            <div class="proximas-jogos-flex">
+                                <div class="partidas-proximas flex-center-bt">
+                                    <div class="equipe1">
+                                        <p>SK</p>
+                                        <img src="img/SK 1.png" alt="Logo do SK">
+                                    </div>
+                                    <p>VS</p>
+                                    <div class="equipe2">
+                                        <img src="img/FLA 1.png" alt="Logo do Flamengo">
+                                        <p>FL</p>
+                                    </div>
+                                </div>
+                                <p class="data">01/12/2020 19:00</p>
+                            </div>
+                            
+                            <div class="proximas-jogos-flex">
+                                <div class="partidas-proximas flex-center-bt">
+                                    <div class="equipe1">
+                                        <p>SK</p>
+                                        <img src="img/SK 1.png" alt="Logo do SK">
+                                    </div>
+                                    <p>VS</p>
+                                    <div class="equipe2">
+                                        <img src="img/FLA 1.png" alt="Logo do Flamengo">
+                                        <p>FL</p>
+                                    </div>
+                                </div>
+                                <p class="data">01/12/2020 19:00</p>
+                            </div>
+                            
+                            <div class="proximas-jogos-flex">
+                                <div class="partidas-proximas flex-center-bt">
+                                    <div class="equipe1">
+                                        <p>SK</p>
+                                        <img src="img/SK 1.png" alt="Logo do SK">
+                                    </div>
+                                    <p>VS</p>
+                                    <div class="equipe2">
+                                        <img src="img/FLA 1.png" alt="Logo do Flamengo">
+                                        <p>FL</p>
+                                    </div>
+                                </div>
+                                <p class="data">01/12/2020 19:00</p>
+                            </div>
+                            
+                            <div class="proximas-jogos-flex">
+                                <div class="partidas-proximas flex-center-bt">
+                                    <div class="equipe1">
+                                        <p>SK</p>
+                                        <img src="img/SK 1.png" alt="Logo do SK">
+                                    </div>
+                                    <p>VS</p>
+                                    <div class="equipe2">
+                                        <img src="img/FLA 1.png" alt="Logo do Flamengo">
+                                        <p>FL</p>
+                                    </div>
+                                </div>
+                                <p class="data">01/12/2020 19:00</p>
+                            </div>
+                            
+                            <div class="proximas-jogos-flex">
+                                <div class="partidas-proximas flex-center-bt">
+                                    <div class="equipe1">
+                                        <p>SK</p>
+                                        <img src="img/SK 1.png" alt="Logo do SK">
+                                    </div>
+                                    <p>VS</p>
+                                    <div class="equipe2">
+                                        <img src="img/FLA 1.png" alt="Logo do Flamengo">
+                                        <p>FL</p>
+                                    </div>
+                                </div>
+                                <p class="data">01/12/2020 19:00</p>
+                                
+                            </div>   
+                        </aside>
+                    </div>    
+                </div>      
+        </section>
+        
     </main>
     
     <footer class="rodape">
-        <div class="content flex-center-bt">
+        <div class="content flex-center-bt ">
             <div class="links-footer">
                 <div class="links">
                     <h2>Links Úteis</h2>
@@ -297,29 +299,40 @@
                     </ul>
                 </div>
             </div>  <!--Links-footer-->
-                <img class="logo-rodape" src="img/Logo 1.svg" alt="Logo E-Players">
-
-                <div class="sociais">
-                    <div class="newslatter">
-                        <h2>Faça parte do nosso clan, receba notícias e promoções!</h2>
-                        <form action="#">
-                            <input type="email" name="email" placeholder="E-MAIL">
-                            <input type="button" value="Cadastrar">
-                        </form>
-                    </div>
-                    <div class="siga-nos flex-center-bt">
-                        <h2>Siga-nos em:</h2>
-                        <a href="https://www.instagram.com/nigga_bk/?hl=pt-br"><img src="img/Insta.png" alt="Logo do instagram"></a>
-
-                        <a href="https://www.facebook.com/matheusvinicios.david/"><img src="img/face.png" alt="Logo do Facebook"></a>
-
-                        <a href="https://www.youtube.com/channel/UCM2l19Bs56ZzDodw2GMe8Wg?view_as=subscriber"><img src="img/youtube.png" alt="Logo do Youtube"></a>
-
-                    </div>
+            <img class="logo-rodape" src="img/Logo 1.svg" alt="Logo E-Players">
+            
+            <div class="sociais">
+                <div class="newslatter">
+                    <h2>Faça parte do nosso clan, receba notícias e promoções!</h2>
+                    <form action="#">
+                        <input type="email" name="email" placeholder="E-MAIL">
+                        <input type="button" value="Cadastrar">
+                    </form>
                 </div>
+                <div class="siga-nos flex-center-bt">
+                    <h2>Siga-nos em:</h2>
+                    <a href="https://www.instagram.com/nigga_bk/?hl=pt-br"><img src="img/Insta.png" alt="Logo do instagram"></a>
+                    
+                    <a href="https://www.facebook.com/matheusvinicios.david/"><img src="img/face.png" alt="Logo do Facebook"></a>
+                    
+                    <a href="https://www.youtube.com/channel/UCM2l19Bs56ZzDodw2GMe8Wg?view_as=subscriber"><img src="img/youtube.png" alt="Logo do Youtube"></a>
+                    
+                </div>
+            </div>
         </div><!--Fim do content footer-->
-
+        
     </footer>
     
+    <script>
+        function meumenu() {
+          var x = document.getElementById("meuslinks");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+        }
+    </script>
+
 </body>
 </html>
